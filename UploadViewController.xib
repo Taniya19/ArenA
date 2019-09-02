@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UploadViewController">
+            <connections>
+                <outlet property="loadYoutubeURLInWebV" destination="EHq-GC-jon" id="KTm-Em-ZO9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EHq-GC-jon">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="gWz-NP-rSk"/>
+                    </connections>
+                </webView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArenaLaunch6" translatesAutoresizingMaskIntoConstraints="NO" id="MQY-zC-YaZ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="as9-K9-5hM">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.96279252280000005" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="EHq-GC-jon" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="13s-h2-hmK"/>
+                <constraint firstItem="EHq-GC-jon" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5kl-DY-Id8"/>
+                <constraint firstAttribute="bottom" secondItem="as9-K9-5hM" secondAttribute="bottom" id="90w-3l-2LY"/>
+                <constraint firstItem="as9-K9-5hM" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="91Q-Ux-C8H"/>
+                <constraint firstItem="MQY-zC-YaZ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="El8-pT-qtB"/>
+                <constraint firstItem="MQY-zC-YaZ" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="GYc-Ok-E4M"/>
+                <constraint firstItem="as9-K9-5hM" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="JlC-nw-n5O"/>
+                <constraint firstAttribute="trailing" secondItem="EHq-GC-jon" secondAttribute="trailing" id="R56-Vx-VPv"/>
+                <constraint firstItem="MQY-zC-YaZ" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" constant="34" id="gge-Q5-0WY"/>
+                <constraint firstItem="MQY-zC-YaZ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="hZB-le-ZBU"/>
+                <constraint firstItem="EHq-GC-jon" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="ke7-bK-7Hs"/>
+                <constraint firstItem="as9-K9-5hM" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="vam-3H-rFW"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="137.68115942028987" y="154.01785714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ArenaLaunch6" width="1024" height="1029"/>
+    </resources>
+</document>

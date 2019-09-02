@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>117039992021-52ur1bfkjripb6621cllcg5fmsors9ef.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.117039992021-52ur1bfkjripb6621cllcg5fmsors9ef</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB-qRkzNjhVuZKj7e-ljb4EF1624BDj5uY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>117039992021</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.arenaofficial.arena</string>
+	<key>PROJECT_ID</key>
+	<string>arena-sports-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>arena-sports-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:117039992021:ios:659f1ddbc5c5d6d0</string>
+	<key>DATABASE_URL</key>
+	<string>https://arena-sports-app.firebaseio.com</string>
+</dict>
+</plist>
